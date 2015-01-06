@@ -1,0 +1,30 @@
+﻿<%@ Master Language="AVR" AutoEventWireup="false" CodeFile="MasterPage.master.vr" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    </form>
+</body>
+
+<!-- ASNA.Helpers.DataServices JS interface -->
+<script src="<%=Page.ResolveUrl("~")%>public/vendor/jquery/dist/jquery.min.js"></script>
+<script src="<%=Page.ResolveUrl("~")%>public/vendor/underscore/underscore.js"></script>
+<script src="<%=Page.ResolveUrl("~")%>public/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="<%=Page.ResolveUrl("~")%>public/vendor/bootstrap-growl/jquery.bootstrap-growl.min.js"></script>
+
+<script src="<%=Page.ResolveUrl("~")%>public/js/ASNAHelpers.QueryInputArgs.js"></script>
+<script src="<%=Page.ResolveUrl("~")%>public/js/ASNAmiscellaneous.js"></script>
+
+
+<asp:contentplaceholder id="EndOfPagePlaceHolder" runat="server">
+</asp:contentplaceholder>
+</html>

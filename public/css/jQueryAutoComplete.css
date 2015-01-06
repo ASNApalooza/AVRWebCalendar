@@ -1,0 +1,9 @@
+﻿.ui-autocomplete-loading {
+    background-image: url('/public/images/concentric-spinner.gif');
+    background-position: 98% 50%;
+    background-repeat: no-repeat;
+}
+
+.my-ui-icon-alert {
+        background: white url('../images/icon-alert.png') right center no-repeat;
+}
